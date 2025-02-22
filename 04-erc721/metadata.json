@@ -1,0 +1,24 @@
+{
+    "name": "testlang",
+    "description": "testlang",
+    "symbol": "TES1",
+    "image": "https://i.imgur.com/RzobYSY.png",
+    "attributes": [
+        {
+            "trait_type": "event",
+            "value": "test"
+        },
+        {
+            "trait_type": "year",
+            "value": "2025"
+        },
+        {
+            "trait_type": "region",
+            "value": "Luzon"
+        },
+        {
+            "trait_type": "website",
+            "value": "selyo.quest"
+        }
+    ]
+}

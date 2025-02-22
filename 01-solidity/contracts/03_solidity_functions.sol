@@ -6,14 +6,25 @@ contract SolidityFunctions {
     uint256 balance = 0;
 
     constructor(uint256 initialBalance) {
-        // balance = initialBalance;
+        balance = initialBalance;
+    }
+
+    function checker(uint256 iBalance) public {
+        if (iBalance > 500) {
+            console.log("Mah anong ulam");
+        }
+        else {
+            console.log("Hello Kulugo");
+        }
     }
 
     function addBalance(uint256 toAddBalance) public {
-        // balance += toAddBalance;
+         balance += toAddBalance;
     }
 
     function getBalance() public view returns (uint256) {
-        // return balance;
+         return balance;
     }
+
+    
 }

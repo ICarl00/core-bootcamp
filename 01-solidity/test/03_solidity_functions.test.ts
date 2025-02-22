@@ -38,4 +38,18 @@ describe("SolidityFunctions", function () {
       console.log("balance is now ", balance);
     });
   });
+
+  describe("NEW FUNCTION", function(){
+    it("REYMOND", async function(){
+      const {ctcSolidityFunctions} = await loadFixture(deploy);
+      expect(ctcSolidityFunctions).not.to.be.undefined;
+    });
+
+    it("checkingggg ", async function (){
+      const {ctcSolidityFunctions} = await loadFixture(deploy);
+      await ctcSolidityFunctions.checker(50_000);
+
+      
+    })
+  })
 });

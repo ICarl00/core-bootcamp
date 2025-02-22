@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "01-solidity": "file:",
     "hardhat": "^2.22.18"
   },
   "devDependencies": {

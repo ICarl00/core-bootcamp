@@ -8,12 +8,12 @@ import hre from "hardhat";
 
 describe("SolidityDataTypes", function () {
   async function deploy() {
-    const [account1] = await hre.ethers.getSigners();
+    const [account1] = await hre.ethers.getSigners(); // create dummy account
 
     const SolidityDataTypes = await hre.ethers.getContractFactory(
       "SolidityDataTypes"
-    );
-    const ctcSolidityDataTypes = await SolidityDataTypes.deploy();
+    ); // Search repo of "SolidityDataTypes"
+    const ctcSolidityDataTypes = await SolidityDataTypes.deploy(); //deployed solidity 
 
     return { ctcSolidityDataTypes, account1 };
   }
